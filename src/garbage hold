@@ -1,0 +1,10 @@
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+// <BrowserRouter>
+//   </BrowserRouter>
+// <Switch>
+//   <Route exact path='/' component={Landing} />
+//   <Route path='/Portfolio' component={Portfolio} />
+//   <Route path='/Workshop' component={Workshop} />
+//   <Route path='/About' component={About} />
+// </Switch>

@@ -1,0 +1,17 @@
+.about-wrapper {
+  padding: 5em;
+  background: linear-gradient(#519DFE, #110BFF);
+  /* background:  url('../images/white-city.png'), linear-gradient(#519DFE, #110BFF);
+  background-position: bottom;
+  background-repeat: repeat-x; */
+  /* background-size: cover; */
+  text-align: center;
+  height: calc(100vh);
+  color: white;
+/* url('https://ubisafe.org/images/detorted-clipart-sky-line-1.png')} */
+}
+.about-wrapper img {
+  border-radius: 100%;
+  margin: 20px;
+  max-width: 100%;
+}

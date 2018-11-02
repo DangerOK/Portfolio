@@ -1,0 +1,22 @@
+.footer-wrapper {
+  height: 200px;
+  background: #001ED4;
+  /* background-position: bottom;
+  background-repeat: repeat-x; */
+ /* url('../images/white-city.png'), */
+}
+
+.social-icons {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.social-icons li img {
+  border: 2px solid black;
+  border-radius: 5em;
+}

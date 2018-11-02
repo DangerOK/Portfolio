@@ -1,0 +1,10 @@
+.doodle-code {
+  display: inline-block;
+  font-size: 12px;
+  margin: 25px;
+}
+
+.doodle-code pre {
+  height: 200px;
+  margin: 0px;
+}

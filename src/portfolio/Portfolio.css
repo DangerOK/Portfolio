@@ -1,0 +1,30 @@
+.portfolio-container {
+  text-align: center;
+  padding: 3em;
+  margin: 2em 0;
+}
+
+.project-container {
+  display: inline-block;
+  margin: 1em 1em;
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(#3D60FF, #302CFF);
+  border: 3px solid #001ED4;
+  border-radius: 1em;
+  color: black;
+  max-width: 40%;
+  /* #003366 */
+}
+
+.project-container img {
+  max-width: 100%;
+  max-height: 300px;
+  /* border: 3px solid black; */
+  /* 002BD0 */
+}
+
+.project-container a, .project-container a:visited {
+  text-decoration: none;
+  color: white;
+}
