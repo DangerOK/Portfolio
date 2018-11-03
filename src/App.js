@@ -9,7 +9,7 @@ import Header from './header/Header';
 import Footer from './footer/Footer';
 
 
-class App extends Component {
+class App extends Component { 
   render() {
     return (
         <div className="App">

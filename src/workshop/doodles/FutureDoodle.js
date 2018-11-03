@@ -10,14 +10,14 @@ class FutureDoodle extends React.Component {
         <pre>
           <code className='language-markup'>
           {`<body>
-            
+
 </body>
 `}
           </code>
         </pre>
       </div>
     )
-  }
+  } 
 }
 
 export default FutureDoodle;

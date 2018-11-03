@@ -18,7 +18,7 @@ class Workshop extends React.Component {
         <FutureDoodle />
         <Doodle2 />
       </div>
-    )
+    ) 
   }
 }
 

@@ -16,5 +16,5 @@ class Doodle2 extends React.Component {
     )
   }
 }
-
+ 
 export default Doodle2;

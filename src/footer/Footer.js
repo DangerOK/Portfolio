@@ -14,7 +14,7 @@ const Footer = () => (
 )
 
 export default Footer;
-
+ 
 // <div className='landing-background'>
 //   <NavLink to={'About'}><h1>About</h1></NavLink>
 //   <NavLink to={'Portfolio'}><h1>Portfolio</h1></NavLink>
