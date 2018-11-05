@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 // import {NavLink} from 'react-router-dom';
-
+ 
 const Footer = () => (
   <div className='footer-wrapper' id='Contact'>
     <ul className='social-icons'>
@@ -14,7 +14,7 @@ const Footer = () => (
 )
 
 export default Footer;
- 
+
 // <div className='landing-background'>
 //   <NavLink to={'About'}><h1>About</h1></NavLink>
 //   <NavLink to={'Portfolio'}><h1>Portfolio</h1></NavLink>

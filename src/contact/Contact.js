@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-
+ 
 const Contact = () => (
   <div className='contact-container'>
     <h3>Contact Me</h3>
@@ -13,5 +13,5 @@ const Contact = () => (
     </form>
   </div>
 )
- 
+
 export default Contact;

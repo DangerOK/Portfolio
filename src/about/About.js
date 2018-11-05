@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './About.css'; 
 
 
 const About = () => (
@@ -8,6 +8,6 @@ const About = () => (
     <h2>Adam Gawish</h2>
     <p>Welcome to my site! I am a developer currently developing in ReactJS. </p>
   </div>
-) 
+)
 
 export default About;

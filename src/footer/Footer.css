@@ -4,14 +4,14 @@
   /* background-position: bottom;
   background-repeat: repeat-x; */
  /* url('../images/white-city.png'), */
-}
+} 
 
 .social-icons {
   text-align: center;
   padding-top: 5%;
 }
 
-.social-icons li { 
+.social-icons li {
   display: inline-block;
   padding: 0 5px;
 }
