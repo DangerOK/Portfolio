@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
- 
+
 const Contact = () => (
   <div className='contact-container'>
     <h3>Contact Me</h3>
@@ -9,7 +9,7 @@ const Contact = () => (
       <input className='form-control' type="email" name="email" placeholder="Your email" />
       <input className='form-control' type="name" name="name" placeholder="Your Name" />
       <textarea className='form-control' name="message" placeholder="Message"></textarea>
-      <button id='submit-button' type="submit">Send</button>
+      <div className='btnDiv'><button id='submit-button' type="submit">Send</button></div>
     </form>
   </div>
 )

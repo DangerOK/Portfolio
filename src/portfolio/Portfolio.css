@@ -2,6 +2,11 @@
   text-align: center;
   padding: 3em;
   margin: 2em 0;
+  /* margin-top: -30em; */
+  background:  url('../images/white-city.png');
+  background-position: bottom;
+  background-repeat: repeat-x;
+  /* linear-gradient(#110BFF, #001ED4); */
 }
 
 .project-container {
@@ -10,12 +15,20 @@
   padding: 10px;
   text-align: center;
   background: linear-gradient(#3D60FF, #302CFF);
+  /* background: white; */
   border: 3px solid #001ED4;
   border-radius: 1em;
-  color: black;
+  color: white;
   max-width: 40%;
-  /* #003366 */
-} 
+  /* #003366 #001ED4;*/
+}
+
+.portfolio-container h3 {
+  font-size: 4em;
+  margin: 0 0 1em 0;
+  color: #2a2a2a;
+  text-shadow: 1px 2px 3px #2a3a3a;
+}
 
 .project-container img {
   max-width: 100%;

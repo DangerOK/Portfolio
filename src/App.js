@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-// import Portfolio from './portfolio/Portfolio';
+// import Portfolio from './portolio/Portfolio';
 // import About from './about/About';
 import Contact from './contact/Contact';
 import Landing from './landing/Landing';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './header/Header';
 import Footer from './footer/Footer';
+import Blog from './blog/Blog';
 
 
 class App extends Component {
@@ -18,7 +19,9 @@ class App extends Component {
               <Header />
               <Switch>
                 <Route exact path='/' component={Landing} />
+                <Route path='/Portfolio' component={Landing} />
                 <Route path='/Contact' component={Contact} />
+                <Route path='/Blog' component={Blog} />
               </Switch>
               <Footer />
             </div>
@@ -28,7 +31,7 @@ class App extends Component {
     );
   }
 }
- 
+
 export default App;
 // <BrowserRouter>
 //   </BrowserRouter>

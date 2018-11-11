@@ -1,7 +1,7 @@
 .contact-container {
   padding: 5em 10em;
   /* background-color: #001ed4; */
-} 
+}
 
 .contact-container h3 {
   font-size: 2em;
@@ -36,4 +36,8 @@
   background-color: #2a2a2a;
   color: #fff;
   cursor: pointer;
+}
+
+.btnDiv {
+  text-align: center;
 }
