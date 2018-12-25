@@ -1,10 +1,11 @@
 import React from 'react';
+import MoviesomethingThumb from '../../images/MoviesomethingThumb.png';
 
 const MovieSomething = () => (
-  <div className='project-container'>
+  <div className='project'>
     <a href='localhost:3001' target='_blank' rel="noopener noreferrer">
       <h2>MovieSomething</h2>
-      <img src='http://127.0.0.1:50602/src/images/MoviesomethingThumb.png' alt='site thumbnail' />
+      <img src={MoviesomethingThumb} alt='site thumbnail' />
       <p>Web App using theMovieDB API for searching for movies by rating, genre, realease year, and more.</p>
     </a>
   </div>

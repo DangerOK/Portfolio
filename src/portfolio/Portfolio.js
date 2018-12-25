@@ -10,11 +10,12 @@ class Portfolio extends React.Component {
   render() {
     return(
       <div className='portfolio-container' id='Portfolio'>
-        <h3>Portfolio</h3>
-        <MovieSomething />
-        <Project3 />
-        <Todo />
-        <Project3 />
+        <h3>Projects</h3>
+        <div className='project-container'>
+          <MovieSomething />
+          <Todo />
+          <Project3 />
+        </div>
       </div>
     )
   }

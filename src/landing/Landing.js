@@ -1,13 +1,17 @@
 import React from 'react';
+import './Landing.css'
 import Portfolio from '../portfolio/Portfolio';
 import About from '../about/About';
+import Skills from '../skills/Skills';
 
 const Landing = () => (
-  <div>
+  <div className='landing-container'>
     <About />
-    <Portfolio />
+    <div className='content'>
+      <Skills />
+      <Portfolio />
+    </div>
   </div>
 )
 
 export default Landing;
-  

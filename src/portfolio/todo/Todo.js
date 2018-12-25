@@ -1,11 +1,12 @@
 import React from 'react';
+import ToDoThumbnail from '../../images/ToDoThumbnail.png'
 
 
 const Todo = () => (
-  <div className='project-container' id='webNail'>
+  <div className='project' id='webNail'>
     <a href='localhost:3001' target='_blank' rel="noopener noreferrer">
       <h2>The To-Do Experiment</h2>
-      <img src='http://127.0.0.1:50602/src/images/ToDoThumbnail.png' alt='site thumbnail' />
+      <img src={ToDoThumbnail} alt='site thumbnail' />
       <p>Your run of the mill To-Do App. One of the first projects I built using React.</p>
     </a>
 </div>

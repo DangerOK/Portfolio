@@ -1,17 +1,18 @@
 .about-wrapper {
   padding: 5em;
-  background: linear-gradient(#519DFE, #110BFF);
-  /* background:  url('../images/white-city.png'), linear-gradient(#519DFE, #110BFF);
+  /* background: url("https://images.unsplash.com/photo-1495667789375-0ea23c94f110?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=4928&q=80");
+  background-attachment: fixed;
   background-position: bottom;
-  background-repeat: repeat-x; */
-  /* background-size: cover; */
+  background-size: cover; */
+  /* background: transparent; */
   text-align: center;
-  height: 100vh ;
-  color: white;
+  height: 70vh ;
+  color: #111;
+  font-family: Roboto;
 /* url('https://ubisafe.org/images/detorted-clipart-sky-line-1.png')} */
 }
-.about-wrapper img {
-  border-radius: 100%;
-  margin: 20px;
-  max-width: 100%;
+
+.about-wrapper h1 {
+  font-weight: 300;
+  color: #111
 }

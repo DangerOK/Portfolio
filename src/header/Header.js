@@ -8,10 +8,11 @@ class Header extends React.Component {
 
     // const blackHeader = {"backgrounColor" : 'black'}
     // const clearHeader = {"backgroundColor" : 'transparent'}
-    let path = this.props.location.pathname;
-    console.log(this.props.location)
+    // style={ (path !== '/' && path !== '/Portfolio') ? {"color" : '#2a2a2a'} :  {"backgroundColor" : 'transparent'} }
+    // let path = this.props.location.pathname;
+    // console.log(this.props.location)
     return(
-        <header style={ (path !== '/' && path !== '/Portfolio') ? {"color" : '#2a2a2a'} :  {"backgroundColor" : 'transparent'} }>
+        <header>
           <NavLink to={'/'}><h2>Adam Gawish</h2></NavLink>
           <nav>
             <ul>

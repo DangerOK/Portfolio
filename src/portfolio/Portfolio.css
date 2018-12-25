@@ -1,43 +1,52 @@
 .portfolio-container {
+  /* font-family: Roboto;
   text-align: center;
-  padding: 3em;
-  margin: 2em 0;
-  /* margin-top: -30em; */
-  background:  url('../images/white-city.png');
-  background-position: bottom;
-  background-repeat: repeat-x;
-  /* linear-gradient(#110BFF, #001ED4); */
-}
-
-.project-container {
-  display: inline-block;
-  margin: 1em 1em;
-  padding: 10px;
-  text-align: center;
-  background: linear-gradient(#3D60FF, #302CFF);
-  /* background: white; */
-  border: 3px solid #001ED4;
-  border-radius: 1em;
-  color: white;
-  max-width: 40%;
-  /* #003366 #001ED4;*/
+  background-color: white;
+  margin: 0 0em 10em ;
+  padding: 1em;
+  border-radius: 0 0 10px 10px;
+  -webkit-box-shadow: 0px 5px 0px 0px #000000;
+  box-shadow: 0px 5px 15px 0px #000000; */
 }
 
 .portfolio-container h3 {
-  font-size: 4em;
-  margin: 0 0 1em 0;
-  color: #2a2a2a;
-  text-shadow: 1px 2px 3px #2a3a3a;
+  font-size: 30px;
+  font-weight: lighter;
+  /* margin-top: 1.5em; */
+  padding: 2em;
 }
 
-.project-container img {
+.project-container {
+  padding: 0 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  flex: 1 1 0;
+  min-width: 10em;
+  margin: 1em 1em 1em 1em;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid lightblue;
+  border-radius: 1em;
+  color: #111;
+  /* #003366 #001ED4;*/
+  overflow: scroll;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.project img {
   max-width: 100%;
   max-height: 300px;
-  /* border: 3px solid black; */
+  border: 1px solid #111;
+  border-radius: 10px;
   /* 002BD0 */
 }
 
-.project-container a, .project-container a:visited {
+.project a, .project a:visited {
   text-decoration: none;
-  color: white;
+  color: #111;
 }
