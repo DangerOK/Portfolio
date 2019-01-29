@@ -1,0 +1,50 @@
+.portfolio-container {
+  border-radius: 0 0 5px 5px;
+  padding: 2em 0;
+  min-height: 800px;
+  /* color: white; */
+  /* background-color: #000044; */
+
+}
+
+.portfolio-container h3 {
+  font-size: 36px;
+  font-weight: lighter;
+  padding: 2em 0;
+}
+
+.project-container {
+  padding: 0 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  flex: 1 1 0;
+  min-width: 10em;
+  max-width: 33%;
+  margin: 1em 1em 1em 1em;
+  padding: 1.5em;
+  text-align: center;
+  border: 3px solid #abcdef;
+  border-radius: 1em;
+  color: #111;
+  /* #003366 #001ED4;*/
+  overflow: scroll;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.project img {
+  max-width: 100%;
+  max-height: 300px;
+  border: 1px solid #111;
+  border-radius: 10px;
+  margin: 2em 0;
+}
+
+.project a, .project a:visited {
+  text-decoration: none;
+  color: #111;
+}

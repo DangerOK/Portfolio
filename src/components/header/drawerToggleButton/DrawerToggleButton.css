@@ -1,0 +1,19 @@
+
+.toggle-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 16px;
+  width: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.burger {
+  background-color: black;
+  height: 2px;
+  width: 18px;
+}
