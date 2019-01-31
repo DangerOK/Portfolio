@@ -18,7 +18,7 @@ class Navbar extends React.Component {
       boxShadow: 'none',
       transition: '.3s ease-in-out',
     }
-    
+
     const scrolledHeader = {
       backgroundColor: '#fff',
       transition: '.3s ease-in-out',
@@ -40,7 +40,7 @@ class Navbar extends React.Component {
   render() {
     return(
       <header style={this.state.style}>
-        <NavLink to={'/'}><h2>Adam Gawish</h2></NavLink>
+        <NavLink to={'/Portfolio'}><h2>Adam Gawish</h2></NavLink>
         <nav>
           <ul className='desktop-nav'>
             <li><NavLink to={'/Portfolio'}>Portfolio</NavLink></li>
