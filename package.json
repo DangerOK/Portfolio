@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dangerok.github.io/Portfolio/",
+  "homepage": "https://adamgawish.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "prismjs": "^1.15.0",
