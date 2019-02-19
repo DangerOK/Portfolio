@@ -18,9 +18,7 @@ const Footer = () => (
           <li><NavLink to={'/Blog/About'}>About</NavLink></li>
           <li><NavLink to={'/Contact'}>Contact</NavLink></li>
           <li>
-            <a href={Adam_Gawish_Resume_2019} target='_blank' rel="noopener noreferrer">
-              Resume
-            </a>
+            <a href={Adam_Gawish_Resume_2019} target='_blank' rel="noopener noreferrer">Resume</a>
           </li>
         </ul>
       </div>
