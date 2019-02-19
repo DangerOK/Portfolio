@@ -6,6 +6,7 @@ import linkedin_icon from '../images/icons/linkedin_icon.png';
 import github_icon from '../images/icons/github_icon.png';
 import facebook_icon from '../images/icons/facebook_icon.png';
 import mail_icon from '../images/icons/mail_icon.png';
+import Adam_Gawish_Resume_2019  from '../images/Adam_Gawish_Resume_2019.pdf';
 
 
 const Footer = () => (
@@ -16,7 +17,11 @@ const Footer = () => (
           <p>Menu</p>
           <li><NavLink to={'/Blog/About'}>About</NavLink></li>
           <li><NavLink to={'/Contact'}>Contact</NavLink></li>
-          <li>Resume</li>
+          <li>
+            <a href={Adam_Gawish_Resume_2019} target='_blank' rel="noopener noreferrer">
+              Resume
+            </a>
+          </li>
         </ul>
       </div>
         <ul className='social-icons'>
