@@ -60,6 +60,10 @@
   max-width: 100%;
 }
 
+.article-container p {
+  line-height: 24px;
+}
+
 .article-container img {
   max-width: 60%;
   max-height: 60%;

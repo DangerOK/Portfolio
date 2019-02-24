@@ -9,7 +9,7 @@ const Contact = () => (
         <p>Send me an e-mail through this form</p>
       </div>
       <div className='form-container'>
-        <form  method="POST" action="https://formspree.io/adamgg2@gmail.com">
+        <form  method="POST" action="https://formspree.io/gawishadam@gmail.com">
           <input className='form-control' type="email" name="email" placeholder="  Your email" />
           <input className='form-control' type="name" name="name" placeholder="  Your Name" />
           <textarea className='form-control' name="message" placeholder=" Message"></textarea>

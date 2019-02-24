@@ -11,10 +11,11 @@ const About = () => (
     </div>
     <p>
       I am a Software Developer with a primary focus on Web Development.
-      I love writing clean and powerful code.
-      I am always improving and learning new tools to further my skills as a programmer.
-      Feel free to contact me with questions you may have for me. I am looking forward to working with you.
-     </p>
+      I love writing clean and dynamic code.
+      I am pragmatic, a clear communicator, a self-starter, a strong team player, and am always looking for a new challenge to rise to.
+      I am proficient in React.js, JavaScript, CSS, HTML, familiar with Node.js, and AWS concepts, and am constantly learning new tools and skills to better myself as a developer.
+      Feel free to contact me with any questions you have, and I will get back to you .
+    </p>
   </div>
 )
 
