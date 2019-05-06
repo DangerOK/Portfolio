@@ -1,12 +1,15 @@
-import React from 'react';
-import MoviesomethingThumb from '../../images/MoviesomethingThumb.png';
+import React from "react";
+import MoviesomethingThumb from "../../../assets/images/resources/MoviesomethingThumb.png";
 
 const MovieSomething = () => (
-  <div className='article-wrapper'>
-    <h1>MovieSomething</h1>
-    <img src={MoviesomethingThumb} alt='site thumbnail' />
-    <p> Using the MovieDB API, I built a site that lets you sort Movies by Genre, Rating, Realeas Date, and More. </p>
+  <div className="article-wrapper">
+    <h1>MovieFinder DB</h1>
+    <img src={MoviesomethingThumb} alt="site thumbnail" />
+    <p>
+      Web App using React.js, and theMovieDB API for searching for movies and
+      filtering by rating, genre, realease year, and more.
+    </p>
   </div>
-)
+);
 
-export default MovieSomething
+export default MovieSomething;
