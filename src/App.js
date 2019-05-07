@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Contact from "./components/contact/Contact";
 import Landing from "./components/landing/Landing";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Blog from "./components/blog/Blog";
@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename="/">
           <div>
             <Header drawerClickHandler={this.drawerClickHandler} />
             <Switch>
@@ -22,7 +22,7 @@ class App extends Component {
             </Switch>
             <Footer />
           </div>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     );
   }
