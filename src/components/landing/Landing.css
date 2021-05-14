@@ -1,0 +1,8 @@
+.landing-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 100vh 0; */
+}
