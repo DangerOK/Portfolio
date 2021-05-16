@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./SideDrawer.css";
 import DrawerToggleButton from "../drawerToggleButton/DrawerToggleButton";
 
-const SideDrawer = props => {
+const SideDrawer = (props) => {
   return (
     <div>
       <div
@@ -18,10 +18,7 @@ const SideDrawer = props => {
             <NavLink to={"/Portfolio"}>Portfolio</NavLink>
           </li>
           <li>
-            <NavLink to={"/Contact"}>Contact</NavLink>
-          </li>
-          <li>
-            <NavLink to={"/Blog/About"}>Blog</NavLink>
+            <NavLink to={"/Resume"}>Resume</NavLink>
           </li>
         </ul>
       </nav>

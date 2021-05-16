@@ -54,10 +54,12 @@ const Resume = (props) => {
           </section>
           <section>
             <h3>PROFESSIONAL EXPERIENCE </h3>
+            <h4>MapTopia // San Jose, CA December 2018 – January 2020</h4>
             <h4>
-              MapTopia // San Jose, CA December 2018 – Present{" "}
+              Freelance // Broooklyn, NY December 2018 – Present
               <h4>Front-End Developer</h4>
             </h4>
+
             <ul>
               <li>
                 Contract developer working remotely for tech start-up based in
@@ -83,8 +85,8 @@ const Resume = (props) => {
           </section>
           <section>
             <h4>
-              Mobile Marketing Association // New York, NY September 2017 –
-              Present <h4>Events Team</h4>
+              Mobile Marketing Association // New York, NY September 2017 – May
+              2019 <h4>Events Team</h4>
             </h4>
             <ul>
               <li>
@@ -156,6 +158,10 @@ const Resume = (props) => {
               <h4>Warehouse Associate</h4>
             </h4>
             <ul>
+              <li>
+                Managed inventory systems for shipping and receiving through
+                data entry and updated website accordingly
+              </li>
               <li>
                 Unloaded truck shipments, reconciled purchase orders with sales
                 orders, tagged incoming merchandise with warehouse
